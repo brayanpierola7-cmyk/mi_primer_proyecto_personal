@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08052f">
+  <title>Para ti 🌻</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="petals" aria-hidden="true"></div>
+  <div class="fireflies" aria-hidden="true"></div>
+
+  <main class="screen" id="inicio">
+    <section class="intro card">
+      <div class="mini-flower">🌻</div>
+      <p class="eyebrow">21 DE SEPTIEMBRE</p>
+      <h1>Tengo una pequeña sorpresa para ti 💛</h1>
+      <p class="intro-text">Hay detalles que no necesitan una gran explicación… solo una flor amarilla y un bonito deseo.</p>
+      <button class="main-btn" id="openBtn">Abrir sorpresa 🌻</button>
+      <p class="hint">Toca el botón para comenzar la sorpresa</p>
+    </section>
+  </main>
+
+  <main class="screen hidden" id="sorpresa">
+    <section class="content">
+      <p class="eyebrow">PARA UNA AMIGA ESPECIAL</p>
+      <h2>🌻 Feliz 21 de septiembre 🌻</h2>
+      <p class="subtitle">Que nunca te falten motivos para sonreír.</p>
+
+      <div class="garden" aria-label="Jardín de flores amarillas">
+        <div class="ground"></div>
+        <div class="flower flower-left">
+          <div class="stem"></div><div class="leaf leaf-a"></div><div class="leaf leaf-b"></div>
+          <div class="bloom"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        </div>
+        <div class="flower flower-center">
+          <div class="stem"></div><div class="leaf leaf-a"></div><div class="leaf leaf-b"></div>
+          <div class="bloom"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        </div>
+        <div class="flower flower-right">
+          <div class="stem"></div><div class="leaf leaf-a"></div><div class="leaf leaf-b"></div>
+          <div class="bloom"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        </div>
+      </div>
+
+      <div class="letter">
+        <div class="letter-top">💌</div>
+        <p>
+          Hoy quiero regalarte estas flores amarillas como un pequeño detalle de amistad.
+          Espero que te recuerden que siempre hay momentos bonitos por disfrutar,
+          nuevas sonrisas por compartir y muchas razones para seguir brillando.
+        </p>
+        <p class="final-line">Gracias por ser una amiga tan especial. 💛</p>
+      </div>
+
+      <button class="music-btn" id="musicBtn">🎵 Reproducir música</button>
+      <audio id="musica" src="musica.mp3" preload="auto"></audio>
+
+      <p class="signature">Con cariño 🌻✨</p>
+    </section>
+  </main>
+
+  <div class="celebration hidden" id="celebration" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
